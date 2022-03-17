@@ -1,0 +1,32 @@
+API:
+podscholar.com - main/search results
+podscholar.com/?search=something - main page w/ specific search
+podscholar.com/faq - frequently asked questions
+podscholar.com/dashboard - user dashboard
+
+Podcast JSON fields
+author list
+	per author: first, middle, last name
+title
+journal
+publication date
+DOI
+keywords
+link to the audio file
+
+additional fields in advanced search:
+start date (sdate)
+end date (edate)
+doi
+category
+journal
+author(s)
+
+sorting types:
+ascending date
+descending date
+alphabetical by category
+alphabetical by journal
+alphabetical by author (which author if multiple?)
+
+default sort? descending by date for now
