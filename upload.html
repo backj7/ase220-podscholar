@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <script src="load_pods.js"></script>
+    <title>PodScholar | Upload</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">PodScholar</a>
+        <a href="#">FAQ</a>
+        <a href="register.html">Register</a>
+        <a href="upload.html">Upload</a>
+    </nav>
+    <form id="pod_upload_form" style="display: flex; flex-direction: column">
+        <label for="narrator">Narrator</label>
+        <input id="narrator" name="narrator" type="text">
+        <label for="authors">Authors</label>
+        <input id="authors" name="authors"" type="text">
+        <label for="title">Title</label>
+        <input id="title" name="title" type="text">
+        <label for="journal">Journal</label>
+        <input id="journal" name="journal" type="text">
+        <label for="pubdate">Publication Date</label>
+        <input id="pubdate" name="pubdate" type="text">
+        <label for="doi">DOI</label>
+        <input id="doi" name="doi" type="text">
+        <label for="keywords">Keywords</label>
+        <input id="keywords" name="keywords" type="text">
+        <label for="podurl">File Link</label>
+        <input id="podurl" name="podurl" type="text">
+        <button form="pod_upload_form">SUBMIT PODCAST</button>
+    </form>
+</body>
+</html>
